@@ -59,6 +59,7 @@ public class AddEventControllerUnitTest {
     public void testAddEventSubmit() throws Exception {
        
     	//when(mockEventDao.saveAndFlush(event)).thenReturn(event);
+    	// ToDo: Test effectively the database operation
         
     	// Tests the http request/response for calling the add event page via GET
         mockMvc.perform(get("/addevent"))

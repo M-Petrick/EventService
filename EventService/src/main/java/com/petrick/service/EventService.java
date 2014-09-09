@@ -32,14 +32,4 @@ public class EventService implements IEventService {
         return getDao().findAll();
     }
 	
-//	public List<Event> getAllEvents() {
-//		// in reality, pull from a database via a DAO
-////					List<Event> events = new ArrayList<Event>();
-////					Calendar dt = Calendar.getInstance();
-////					dt.set(Calendar.HOUR_OF_DAY, 0);
-////					events.add(new Event("Konzert 1", dt));
-////					events.add(new Event("Konzert 2", dt));
-////					events.add(new Event("Konzert 3", dt));		
-////		return events;
-//	}
 }
